@@ -1,5 +1,5 @@
-from math import *
+from math import pi, sqrt
 
-x = log (1)
+x = sqrt (pi)
 
 print(x)

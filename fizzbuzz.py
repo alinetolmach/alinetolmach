@@ -1,8 +1,10 @@
-def sign(n):
-    if n > 0:
+def fizzbuzz(n):
+    if n % 5 and n % 3 == 0:
+        return "FizzBuzz"
+    elif n % 3 == 0:
         return "Fizz"
-    elif n == 0:
+    elif n % 5 == 0:
         return "Buzz"
     else:
-        return "FizzBuzz"
-        
+        return n
+print (fizzbuzz (0))
