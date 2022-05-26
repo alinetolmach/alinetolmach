@@ -1,1 +1,5 @@
-print ("Hello World")
+from math import *
+
+x = log (1)
+
+print(x)
